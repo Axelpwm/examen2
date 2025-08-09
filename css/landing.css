@@ -28,6 +28,8 @@ body {
 
 .navbar {
     background-color: #f8f9fa;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+
 }
 
 .nav-link {
@@ -118,4 +120,27 @@ footer {
 .ico-box, .feature{
   background:#fff; border-radius:16px; box-shadow:0 8px 18px rgba(0,0,0,.08);
 }
+
+#scrollTop {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: none; /* Oculto por defecto */
+  z-index: 999;
+  font-size: 1.2rem;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  text-align: center;
+  line-height: 42px;
+  background-color: #f58220; /* Color de marca */
+  color: white;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+#scrollTop:hover {
+  background-color: #d96d0e;
+}
+
 
